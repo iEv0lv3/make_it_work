@@ -252,44 +252,6 @@
           null
         ]
       },
-      "/Users/jww/turing/2module/classwork/make_it_work/spec/features/project_show_page_spec.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          null,
-          null,
-          null
-        ]
-      },
       "/Users/jww/turing/2module/classwork/make_it_work/spec/features/projects/project_show_page_average_experience_spec.rb": {
         "lines": [
           1,
@@ -377,6 +339,52 @@
           1,
           null,
           1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/jww/turing/2module/classwork/make_it_work/spec/features/projects/project_show_page_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
           1,
           1,
           1,
@@ -514,7 +522,7 @@
           1,
           null,
           1,
-          6,
+          7,
           null,
           null
         ]
@@ -557,12 +565,12 @@
         "lines": [
           1,
           1,
-          4,
+          5,
           null,
           null
         ]
       }
     },
-    "timestamp": 1581099281
+    "timestamp": 1581100052
   }
 }

@@ -34,6 +34,14 @@ RSpec.describe 'As a visitor', type: :feature do
       expect(page).to have_content('Material: Newspaper')
       expect(page).to have_content('Theme: Recycled Material')
       expect(page).to have_content('Number of Contestants: 2')
+
+      visit "/projects/#{@boardfit_project.id}"
+
+      expect(current_path).to eq("/projects/#{@boardfit_project.id}")
+      expect(page).to have_content("#{@boardfit_project.name}")
+      expect(page).to have_content("#{@boardfit_project.material}")
+      expect(page).to have_content("#{@boardfit_project.challenge.theme}")
+      expect(page).to have_content('Number of Contestants: 2')
     end
   end
 end

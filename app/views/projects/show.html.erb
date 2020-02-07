@@ -3,5 +3,5 @@
   <div>Material: <%= @project.material %></div>
   <div>Theme: <%= @project.challenge.theme %></div>
   <div>Number of Contestants: <%= @project.contestants.count %></div>
-  <div>Average Contestant Experience: <%= @project.contestants.average(:years_of_experience) %></div>
+  <div>Average Contestant Experience: <%= @project.average_experience(@project) %></div>
 </div>

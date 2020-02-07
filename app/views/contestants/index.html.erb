@@ -1,0 +1,11 @@
+<div class="contestantsIndexBlock">
+  <% @contestants.each do |contestant| %>
+    <div id="contestant_<%= contestant.id %>">
+      <h1>Name: <%= contestant.name %></h1>
+      <h1>Projects: </h1>
+      <% contestant.projects.each do |project| %>
+        <div><%= project.name %></div>
+      <% end %>
+    <div>
+  <% end %>
+</div>

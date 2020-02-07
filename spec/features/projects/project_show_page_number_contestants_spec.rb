@@ -25,25 +25,15 @@ RSpec.describe 'As a visitor', type: :feature do
     @boardfit_project.contestants << @contestant2
   end
 
-  describe 'When I visit the contestants index page' do
-    it 'I see a list of names of all the contestants and their projects' do
-      visit '/contestants'
+  describe 'When I visit a project show page' do
+    it 'it shows the number of contestants on the project' do
+      visit "/projects/#{@news_chic_project.id}"
 
-      expect(current_path).to eq('/contestants')
-
-      within("div#contestant_#{@contestant1.id}") do
-        expect(page).to have_content('Name: Jordan')
-        expect(page).to have_content('Projects:')
-        expect(page).to have_content('News Chic')
-        expect(page).to have_content('Boardfit')
-      end
-
-      within("div#contestant_#{@contestant2.id}") do
-        expect(page).to have_content('Name: Meredith')
-        expect(page).to have_content('Projects:')
-        expect(page).to have_content('News Chic')
-        expect(page).to have_content('Boardfit')
-      end
+      expect(current_path).to eq("/projects/#{@news_chic_project.id}")
+      expect(page).to have_content('Project: News Chic')
+      expect(page).to have_content('Material: Newspaper')
+      expect(page).to have_content('Theme: Recycled Material')
+      expect(page).to have_content('Number of Contestants: 2')
     end
   end
 end

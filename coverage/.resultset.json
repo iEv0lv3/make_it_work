@@ -290,6 +290,50 @@
           null
         ]
       },
+      "/Users/jww/turing/2module/classwork/make_it_work/spec/features/projects/project_show_page_average_contestant_age_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/jww/turing/2module/classwork/make_it_work/spec/features/projects/project_show_page_number_contestants_spec.rb": {
         "lines": [
           1,
@@ -440,6 +484,10 @@
           1,
           1,
           1,
+          null,
+          1,
+          0,
+          null,
           null
         ]
       },
@@ -462,12 +510,12 @@
         "lines": [
           1,
           1,
-          2,
+          3,
           null,
           null
         ]
       }
     },
-    "timestamp": 1581097047
+    "timestamp": 1581097509
   }
 }

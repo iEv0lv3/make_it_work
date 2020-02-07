@@ -28,6 +28,7 @@ RSpec.describe Project, type: :model do
   describe 'average age instance method'do
     it 'averages the experience of contestants' do
       expect(@news_chic_project.average_experience(@news_chic_project)).to eq(8.0)
+      expect(@boardfit_project.average_experience(@news_chic_project)).to eq(8.0)
     end
   end
 end
